@@ -1,10 +1,10 @@
-# Theme_CPP 
+# Theme_CPP - Cidadania e Políticas Públicas
 # Tema para ggplot2
 # Denisson Silva / denisson@denissonsilva.com
 # Willber Nascimento / willbernascimento@outlook.com
 
 
-theme_blank<- function (base_size = 12, base_family = "") {
+theme_cpp<- function (base_size = 12, base_family = "") {
   theme_gray(base_size = base_size, base_family = base_family) %+replace% 
     theme(
       axis.text = element_text(colour = "black"),
@@ -16,5 +16,5 @@ theme_blank<- function (base_size = 12, base_family = "") {
     )   
 }
 
-theme_set(theme_blank())
-theme_blank <- theme_get()
+theme_set(theme_cpp())
+theme_cpp <- theme_get()
