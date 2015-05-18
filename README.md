@@ -1,5 +1,5 @@
 **Theme_CPP para ggplot2**
 
 Autor:
-      Denisson SilVa
+      Denisson SilVa,
       Willber Nascimento
