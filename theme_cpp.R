@@ -9,6 +9,7 @@ theme_cpp<- function (base_size = 10, base_family = "") {
   theme_gray(base_size = base_size, base_family = base_family) %+replace% 
     theme(
       axis.text = element_text(colour = "black",size=rel(1)),
+      axis.text.y=element_text(angle=0),
       axis.title.x = element_text(colour = "black", size=rel(1)),
       axis.title.y = element_text(colour = "black", angle=90),
       axis.line=element_line(color="black"),
