@@ -13,6 +13,8 @@ theme_cpp<- function (base_size = 10, base_family = "") {
       axis.title.x = element_text(colour = "black", size=rel(1)),
       axis.title.y = element_text(colour = "black", angle=90),
       axis.line=element_line(color="black"),
+      legend.position="bottom",
+      legend.title=element_blank(),
       strip.background=element_blank(),
       panel.grid = element_blank(),
       panel.border= element_blank(),
